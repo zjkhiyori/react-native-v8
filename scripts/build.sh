@@ -5,8 +5,8 @@ source $(dirname $0)/env.sh
 # [0] Patch React Native source
 ######################################################################################
 
-rm -rf $BUILD_DIR
-git clone --depth=1 --branch ${RN_VERSION} https://github.com/facebook/react-native.git $BUILD_DIR
+#rm -rf $BUILD_DIR
+#git clone --depth=1 --branch ${RN_VERSION} git@git.silvrr.com:akulaku-rn/AkuReactNativeSource.git $BUILD_DIR
 
 PATCHSET=(
   # Patch React Native build to support v8runtime
